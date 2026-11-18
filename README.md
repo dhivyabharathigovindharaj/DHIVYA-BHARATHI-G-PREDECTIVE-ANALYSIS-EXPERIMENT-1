@@ -1,10 +1,11 @@
-Experiment 1: Exploring NumPy and Pandas
+## Experiment 1: Exploring NumPy and Pandas
 
-Aim
+
+## Aim
 
 To understand the use of NumPy and Pandas for performing basic data manipulation and analysis in Python.
 
-Algorithm
+## Algorithm
 
 Import the NumPy library for matrix and numerical operations.
 Define a two-dimensional square matrix A and a vector b.
@@ -15,14 +16,17 @@ Perform eigen decomposition to find eigenvalues and eigenvectors using np.linalg
 Display the results for the matrix, transpose, inverse, solution vector, and eigenvalues.
 End the program.
 
-Formulas / Theory
+## Formulas / Theory
 
 Transpose: Aᵀ --- interchange rows and columns.
 Inverse: A⁻¹ = adj(A) / |A|, provided det(A) ≠ 0.
 Linear system: A × x = b  ⇒  x = A⁻¹b.
 Eigen decomposition: A v = λ v, where λ is an eigenvalue and v is an eigenvector.
 
-Coding
+
+## Coding
+## Input 
+```
 # Experiment 1
 import numpy as np
 import pandas as pd
@@ -53,8 +57,10 @@ print("\nStatistical Summary: ")
 print(df.describe())
 print("\nDataset Info:")
 print(df.info())
+```
 
-Output
+## Output
+```
 
 Array 1: [10 20 30 40 50]
 Array 2: [ 5 10 15 20 25]
@@ -93,5 +99,6 @@ Data columns (total 3 columns):
 dtypes: int64(2), object(1)
 memory usage: 228.0+ bytes
 None
+```
 
-Result
+## Result
