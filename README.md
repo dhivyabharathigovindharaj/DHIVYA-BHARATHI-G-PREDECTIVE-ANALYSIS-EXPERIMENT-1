@@ -7,14 +7,21 @@ To understand the use of NumPy and Pandas for performing basic data manipulation
 
 ## Algorithm
 
-Import the NumPy library for matrix and numerical operations.
-Define a two-dimensional square matrix A and a vector b.
-Compute the transpose of matrix A to interchange rows and columns.
-Calculate the inverse of matrix A using np.linalg.inv(A) (ensure A is non-singular).
-Solve the linear equation A × x = b using np.linalg.solve(A, b).
-Perform eigen decomposition to find eigenvalues and eigenvectors using np.linalg.eig(A).
-Display the results for the matrix, transpose, inverse, solution vector, and eigenvalues.
-End the program.
+1. Import the NumPy library for matrix and numerical operations.
+
+2. Define a two-dimensional square matrix A and a vector b.
+
+3. Compute the transpose of matrix A to interchange rows and columns.
+
+4. Calculate the inverse of matrix A using np.linalg.inv(A) (ensure A is non-singular).
+
+5. Solve the linear equation A × x = b using np.linalg.solve(A, b).
+
+6. Perform eigen decomposition to find eigenvalues and eigenvectors using np.linalg.eig(A).
+
+7. Display the results for the matrix, transpose, inverse, solution vector, and eigenvalues
+
+8. End the program.
 
 ## Formulas / Theory
 
@@ -102,3 +109,4 @@ None
 ```
 
 ## Result
+Thus, the experiment was successfully executed using NumPy and Pandas in Python. NumPy was used to perform arithmetic operations on arrays, while Pandas was used to create a DataFrame, display student details, and generate descriptive statistical summaries. Hence, the basic data manipulation and analysis operations were successfully performed.
